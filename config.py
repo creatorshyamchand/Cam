@@ -1,10 +1,7 @@
 import os
 
-# Configuration
 CONFIG = {
     'bot_token': '8844616707:AAH-pSiVYN09NCfPlhh8X4VkZjX_vn1Q4zA',
-    'chat_id': '7876469877',
-    'website': 'https://cam-three-dusky.vercel.app/',
     'admin_username': 'nexxon',
     'admin_password': 'exploits@1234',
     'photos_dir': '/tmp/photos' if os.environ.get('VERCEL') else 'photos',
